@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mountarmortweaks:armorer/2/emerald_iron_horse_armor",
+      "required": false
+    },
+    {
+      "id": "mountarmortweaks:armorer/2/emerald_iron_nautilus_armor",
+      "required": false
+    }
+  ]
+}

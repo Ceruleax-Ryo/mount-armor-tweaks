@@ -1,0 +1,16 @@
+{
+  "fabric:load_conditions": {
+    "condition": "mountarmortweaks:config",
+    "feature": "trades/nautilus"
+  },
+  "gives": {
+    "id": "minecraft:iron_nautilus_armor"
+  },
+  "max_uses": 12,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 8,
+    "id": "minecraft:emerald"
+  },
+  "xp": 5
+}

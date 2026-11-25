@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mountarmortweaks:armorer/4/emerald_enchanted_diamond_horse_armor",
+      "required": false
+    }
+  ]
+}

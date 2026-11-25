@@ -1,0 +1,28 @@
+# Central properties, read with sc.properties["..."] in the build scripts.
+# Top-level keys apply to every node. ["<minecraft>"] tables apply to that Minecraft
+# version on every loader; [<loader>."<minecraft>"] tables apply to a single node.
+
+mod.id = "mountarmortweaks"
+mod.name = "Mount Armor Tweaks"
+mod.version = "0.1.0"
+mod.description = "Craftable, enchantable and optionally damageable horse and nautilus armor. Server-side; each feature can be turned off."
+# GitHub "owner/repository", used for the links in the mod metadata.
+mod.repository = "Ceruleax-Ryo/mount-armor-tweaks"
+# Which side the mod's logic runs on: "server" or "client".
+# "server" mods also load on clients so that they work on the integrated server.
+mod.side = "server"
+
+# Project IDs on the publishing platforms. Leave empty to skip a platform.
+publish.modrinth_id = ""
+publish.curseforge_id = ""
+
+deps.fabric_loader = "0.20.1"
+
+["26.3"]
+# Game versions this build is listed under on Modrinth and CurseForge.
+mod.mc_releases = ["26.3"]
+
+[fabric."26.3"]
+deps.fabric_api = "0.167.0+26.3"
+# Minecraft version range written into fabric.mod.json.
+mod.mc_compat = "~26.3"

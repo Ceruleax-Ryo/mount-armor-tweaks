@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.ceruleax.mountarmortweaks.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "LivingEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

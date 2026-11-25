@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mountarmortweaks:armorer/5/emerald_enchanted_diamond_nautilus_armor",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "mountarmortweaks:armorer/3/emerald_golden_horse_armor",
+      "required": false
+    },
+    {
+      "id": "mountarmortweaks:armorer/3/emerald_golden_nautilus_armor",
+      "required": false
+    }
+  ]
+}

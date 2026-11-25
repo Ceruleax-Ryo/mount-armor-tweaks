@@ -1,0 +1,23 @@
+name: Feature request
+description: Suggest a new feature or a change to existing behaviour.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: The situation in game where the current behaviour falls short.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: What the mod should do instead. Mention how it should behave on servers and in singleplayer if that matters.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other mods, settings or workarounds you have tried.
